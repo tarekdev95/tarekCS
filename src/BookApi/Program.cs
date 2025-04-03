@@ -17,7 +17,7 @@ app.MapGet("/", () => "Hello World!");
 app.MapGet("/books", async (BookDb db) =>
 {
     // Récupérer tous les livres depuis la base de données
-    var books = await db.Books.ToListAsync();
+    var books = await db.Books.ToListAsync();c
 
 });
 
